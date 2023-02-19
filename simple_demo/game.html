@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enjoy the Card Game !</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="game.js" defer></script>
+        <link href="./images/favicon.ico" type="image/gif" rel="shortcut icon">
+        <link rel="stylesheet" href="game.css" />
+    </head>
+    <body>
+
+        <div class="up_containers">
+            <pre>Cards:  <span id="success">0</span>/<span id="cards">0</span></pre> 
+            <pre>Score:  <span id="score-value">0</span></pre> 
+            <pre> Time:  <span id="time-limit">0</span></pre>
+            <pre>Turns:  <span id="turns">0</span></pre>
+        </div>
+
+        <div class="board-container">
+            <div class="board">
+                <div class="card">
+                    <div class="card-front"></div>
+                    <div class="card-back">${item}</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

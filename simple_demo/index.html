@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Welcome to the Card Game !</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home.css" />
+        <script src="game.js" defer></script>
+        <link href="./images/favicon.ico" type="image/gif" rel="shortcut icon">
+    </head>
+    <body>
+        <div class="header">
+            <h1><b> Welcome to the Card Games !</b></h1>
+            <p><b>This is a simple memory training game that the goal is to find all triples in a set of cards.</b></p>
+        </div>
+        <div class="main">
+
+            <div class="section_1">
+                <h2 style="font-size: 30px;">Rules:</h2>
+                <!--Instructions-->
+                <p> 
+                    Every card has a picture on one side, and each picture appears on three cards. 
+                    The game starts with all cards face down, and you need to turn over three cards each time. 
+                    If the three cards have the same picture, keep the card, otherwise, the cards will turns their face down again.
+                </p>
+                <ol style="font-size: 15px;">
+                    <li>The set of cards will be shuffled on each round of the game.</li>
+                    <li>You can adjust the difficulties of the game:
+                        <ul>
+                            <li>Number of cards - The number of cards appears in the game. Default: 6.</li>
+                            <li>Number of turns (optional) - The maximum number of turns to win the game. 
+                                If the value is 0, you can try as many times as you want. Default: 0.</li>
+                            <li>Time Limits (optional) - The time limitation to complete the game. 
+                                If the time shown equals to the time limit, the game will stop.
+                                0 means no limitation. Default: 0.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="section_2">
+                <form method="GET">
+                    <!--Get User Input to adjust difficulties-->
+                    <label style="font-size:15px;">Please enter the number of cards:</label><br>
+                    <input type="number" id="num_cards" min="3" max="30" step="3" value="6"><br>
+                    <label style="font-size:15px;">Please enter the number of turns:</label><br>
+                    <input type="number" id="num_turns" min="0" max="100" step="1" value="0"><br>
+                    <label style="font-size:15px;">Please enter the Time Limit (mins):</label><br>
+                    <input type="number" id="time_limit" min="0" max="60" value="0">
+                </form>
+
+            </div>
+
+            <div class="footer">
+                <!--Pass the data to next pages-->
+                <button class="button" onclick="store_values(document.getElementById('num_cards').value,
+                            document.getElementById('num_turns').value,
+                            document.getElementById('time_limit').value);"> 
+                    <span> Ready ? </span> 
+                </button>
+
+            </div>
+        </div>
+
+    </body>
+</html>

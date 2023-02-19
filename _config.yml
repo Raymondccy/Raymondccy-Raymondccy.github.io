@@ -1,0 +1,77 @@
+# Site settings
+title: Aim for the Moon
+description: Blog of Raymond Cheng
+baseurl: "" 
+#change the baseurl to "" if you are using it as your user GitHub Pages
+url: "https://raymondccy.github.io"
+
+
+# GitHub User settings
+username: Raymond Cheng
+github_username: Raymondccy
+user_description: An undergraduate Information Engineering student with a broad interest
+user_title: Information Engineering undergraduate student
+email: raymond.ccyu@outlook.com
+
+# Blog Author settings
+author:
+  name: Raymond Cheng
+  picture:        
+  email: raymond.ccyu@outlook.com
+  description:     
+  twitter:
+  facebook:
+  github: https://raymondccy.github.io
+  linkedin:
+  clustrmap: FZPMC6le_pmqaqVkonuTc2tAOoGmAQS6XvVxZ1m7PDs
+
+
+# markdown
+markdown: kramdown
+  
+kramdown:
+ footnote_nr: 1
+ entity_output: as_char
+ # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+ syntax_highlighter: rouge
+ syntax_highlighter_opts:
+  # Use existing pygments syntax highlighting css
+  css_class: 'highlight'
+ span:
+  line_numbers: false
+ block:
+  line_numbers: true
+  start_line: 1
+ 
+highlighter: rouge
+    
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+permalink: none
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      toc: true
+      mathjax: true
+      mermaid: false
+      highlight: false
+      numbering: true
+      status: Completed
+      protected: false
+      commentable: true
+      rss: true
+      numbering: true
+
+exclude:
+ - LICENSE.md
+ - README.md
+ - "*.cdf"
+ - "*.nb"
+ - "*.bk"
+ - "*.draft.md"

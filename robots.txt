@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /about/Moon.png
+Disallow: /templates/2018-12-12-sample-post.md
+Disallow: /secret/
+Disallow: /secret
+
+SITEMAP: https://raymondccy.github.io/sitemap.xml

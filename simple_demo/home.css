@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+input[type=number]{
+    width: 5%
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #000C66;
+    color: #fff;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image: url('./images/night.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.section_1{
+    flex: 80%;
+    padding: 20px;
+}
+.section_2{
+    flex: 20%;
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+/*Animations for the Button*/
+.button {
+    padding: 12px 18px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8B0000
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+

@@ -1,8 +1,52 @@
-# About this website
-The framework of this website is modified from the great work of PointingToTheMoon 
-by [Yingkai Liu](https://github.com/yk-liu/PointingToTheMoon). You can fork that repo or leave a star if you like.
+---
+title: About
+layout: info
+Edit: 2023-02-13
+toc: false
+commentable: false
+protected: true
+mathjax: true
+---
 
-This website (source code [here](https://github.com/yk-liu/yk-liu.github.io)) uses these sources:
+## Me
+Hi there! I'm a final-year student studying information engineering. 
+I'm also an individual who loves to play badminton, 
+listen to music, and read books. In addition to these interests,
+My current area of focus is AI models and algorithms, and I am always eager to 
+learn more about this exciting field. Whether I'm playing a game of badminton, 
+enjoying my favorite tunes, or delving into my latest research, 
+I am constantly seeking new opportunities for personal and professional growth.
+
+<b>Motto Sharing
+> If you don’t like something, change it. If you can’t change it, change your attitude. Don’t complain.
+> If you want something you’ve never had, then you’ve got to do something you’ve never done.
+
+
+## This Site
+My initial motivation for writing on this website was to share the insights 
+I had garnered through my experiences and learning. I had greatly benefited from 
+reading thought-provoking blogs, and I saw this as an opportunity to conclude and 
+summarize what I have learnt. Publishing my notes on this platform provided me with 
+a sense of motivation and satisfaction.
+
+Additionally, I discovered that this website could serve as a visual representation 
+of my professional qualifications and the skills I had acquired. It offered tangible 
+proof of the knowledge and abilities I had gained over time.
+
+## Posts
+
+The posts are at different status.
+
+| Status    | Meaning                                                      |
+| --------- | ------------------------------------------------------------ |
+| Completed | This post is considered completed, but I might edit it when I came up with something new. |
+| Writing   | This post is being actively edited.                          |
+| Paused    | This post is considered of low priority. I will come back to this post later. |
+| Archived  | This post is outdated and I probably won't update it anymore. |
+
+## Sources
+
+This website uses these sources:
 
 | Module                                                       | Mainly used in                                  | License/ TOS                                                 |
 | ------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------------------ |
@@ -19,3 +63,17 @@ This website (source code [here](https://github.com/yk-liu/yk-liu.github.io)) us
 | [comment](https://commentit.io)                              | Post                                            | [APGL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)       |
 | [404 T-rex game](https://github.com/wayou/t-rex-runner)      | 404 page                                        | from [Chromium source code](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js?q=t-rex+package), [license](https://chromium.googlesource.com/chromium/src.git/+/master/LICENSE) |
 | [Encryption](https://github.com/robinmoisson/staticrypt)     | Secret Pages                                    | [MIT](http://opensource.org/licenses/MIT)                    |
+
+Additional licensing information can be found [here](https://github.com/Raymondccy/Raymondccy.github.io/blob/main/LICENSE.md).
+
+## Great Lyrics Sharing
+
+> ****
+>
+> ****
+>
+> ****
+
+## Contact
+
+The best way to reach me is via email: <b><em> raymond [DOT] ccyu [AT] outlook [DOT] com </em>
